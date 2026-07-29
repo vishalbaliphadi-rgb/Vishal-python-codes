@@ -4,11 +4,11 @@
 #print (id(a)) # memory address
 
 # in below code memory address is same allocated to both a and b
-#a = 10
-#b = 10
+a = 10
+b = 10
 
-#print (id(a)) 
-#print (id(b))
+print (id(a)) 
+print (id(b))
 
 # in below code differnt memory addesses are allocated to a and b
 #a = [10]
@@ -51,6 +51,10 @@ print (10 + 20) # output 30 it considers values as int
 
 
 
+a = 12.02
+print (a)
+print (type(a))
+print (id(a))
 
 
 

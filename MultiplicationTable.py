@@ -5,4 +5,4 @@ i1 = 1
 while (i1 < 10):
     i1 += 1
     b = a * i1
-    print ("Multiplication table:", b)
+    print ("Multiplication table:", b) # Multiplication table printed

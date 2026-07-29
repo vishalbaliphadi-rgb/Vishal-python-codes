@@ -4,7 +4,7 @@ def main():
 
     print (f"Even numbers till {N}:")
     for i in range (2,N+1,2):
-        print (i)          
+        print (i, end =" ")          
 
 
 if __name__ == "__main__":
